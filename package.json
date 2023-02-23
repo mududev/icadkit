@@ -1,0 +1,33 @@
+{
+  "name": "icadkit",
+  "version": "0.0.1",
+  "main": "dist/library.js",
+  "module": "dist/library.mjs",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^3.2.21"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "rollup": "^3.17.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
